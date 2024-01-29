@@ -243,6 +243,7 @@ nav ul li a:hover {
     opacity: 1;
 }
 
+/* ! The text is slightly off from edge of pictures */
 /* Caption Text */
 .text {
     color: #f2f2f2;
@@ -250,7 +251,7 @@ nav ul li a:hover {
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+    width: 98%;
     text-align: center;
     background: rgba(0, 0, 0, 0.8);
     opacity: 0.4;
