@@ -70,6 +70,7 @@ nav ul li a:hover {
 .who-am-i-content {
     display: flex;
     flex-direction: row;
+    color: #b1b7bb;
     
 }
 
@@ -119,7 +120,7 @@ nav ul li a:hover {
 
 .project-box p {
     font-size: 14px;
-    color: #fff;
+    color: #b1b7bb;
 
 }
 
@@ -349,6 +350,7 @@ nav ul li a:hover {
 
 .contact-method h4 {
     margin-bottom: 20px;
+    color:#b1b7bb;
 }
 
 .contact-method .email,
