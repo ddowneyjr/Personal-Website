@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lekton&family=Neucha&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <script src="slideshow.js"></script>
+    </head>
+
+<body>
+
+    <header>
+        <a class="logo" href="/index.html">Derrell Downey Jr.</a>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about-me.html">About Me</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <div class="images">
+                <!-- Full-width images with number and caption text -->
+                <!-- ! IMAGE RATIOS ARE 18:6 -->
+                <div class="mySlides img-one fade">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="images/slideshow/scoop_group.jpg" style="width: 100%" />
+                    <div class="text">2021 Adventure Challenge SCOOP</div>
+                </div>
+
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="images/slideshow/rafting.JPEG" style="width: 100%; " />
+                    <div class="text">White Water Rafting</div>
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+
+
+
+
+
+        <div class="who-am-i">
+            <h1>Who am I?</h1>
+            <p style="color: #596b78;">Junior at Skidmore</p>
+            <div class="who-am-i-content">
+                <img src="images/who-am-i/derrell-face-pic.png" style="width:60%">
+
+                <div class="who-am-i-text">
+                    <p>My name is Derrell Downey Jr. and I am pursuing a computer science degree at Skidmore College.</p>
+                    <p>Throughout my academic journey, I have developed a passion for exploring the ways in which technology
+                    can be leveraged to solve complex problems and improve people's lives. My coursework has exposed me
+                    to a wide range of topics, including data structures, algorithms, programming languages, software
+                    engineering, and computer networks. I have also had the opportunity to work on several group
+                    projects, which have helped me hone my collaboration and communication skills.</p>
+                    <p>Looking ahead, I am eager to continue learning and growing as a computer scientist. I am particularly
+                    interested in Software Development, and I am always on the lookout for new opportunities to expand
+                    my skillset and make meaningful contributions to the field.</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="projects">
+            <h1>Projects</h1>
+
+        <div class="projects-container">
+
+            
+            <!-- Project 1 -->
+            <div class="project-box">
+                <h3>Album Price Checker</h3>
+                <p>Leveraged React and JavaScript, retrieving  album information and pricing details by fetching data from various external music database APIs. For data management, the project uses Firebase as a backend database to store and manage users' favorite albums efficiently</p>
+                <a href="https://github.com/yourusername/project1" class="btn">View on GitHub</a>
+            </div>
+        
+            <!-- Project 2 -->
+            <div class="project-box">
+                <h3>School Management System</h3>
+                <p>A school management system which utilizes SQL for account, course, salary, etc. storage along with a GUI</p>
+                <a href="https://github.com/yourusername/project2" class="btn">View on GitHub</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-box">
+                <h3>SkidNet</h3>
+                <p>Implemented a Simple Reliable Transport imitating a TCP connection between client and Server protocols. Build a Simple Network Protocol that allowed messages to be sent across application along with the setup and teardown of transport layer imitating the classic Go-Back-N protocol. Implemented data exchange on network layer using a routing table with link-state algorithm.</p>
+                <!-- <a href="https://github.com/yourusername/project2" class="btn">View on GitHub</a> -->
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-box">
+                <h3>B-Minor Compiler</h3>
+                <p>Designed and implemented the lexical analyzer, which efficiently tokenized the input source code and handled various language constructs. Implemented various semantic checks, such as type checking, scoping, and symbol table management. Employed industry-standard tools and technologies, such as Lex and Bison to facilitate the development process and enhance the maintainability of the compiler.</p>
+                <!-- <a href="https://github.com/yourusername/project2" class="btn">View on GitHub</a> -->
+            </div>
+        
+            
+        </div>
+
+        </div>
+
+        
+        
+
+        
+
+        <div class="contact">
+            <h1>Contact Me</h1>
+            <div class="flex-contact-container">
+                <div class="contact-method">
+                    <h4>Connect through Email</h4>
+                    <div class="email">derrell.downey@gmail.com</div>
+                </div>
+                <div class="contact-method">
+                    <h4>Download my Resume</h4>
+                    <a href="DerrellDowneyJr_Resume.pdf" target="_blank">Resume</a>
+                </div>
+                <div class="contact-method">
+                    <h4>Connect on LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/derrell-downey-jr-a41046206/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-method">
+                    <h4>My Projects</h4>
+                    <a href="https://github.com/DerrellDowney" target="_blank">Github</a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">&copy; 2023 Derrell Downey Jr</div>
+    </footer>
+
+</body>
+
+</html>
