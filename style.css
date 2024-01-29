@@ -70,15 +70,20 @@ nav ul li a:hover {
 .who-am-i-content {
     display: flex;
     flex-direction: row;
+    align-items: center; /* ensure vertical alignment */
+    justify-content: flex-start; 
     color: #b1b7bb;
+    gap: 40px;
     
 }
 
 .who-am-i-content img {
-    padding-right: 50px;
-    width: 50%;    /* Adjust the percentage as needed */
-    aspect-ratio: 1 / 1; /* Ensures the image stays square */
-    object-fit: cover;   
+    flex-basis: 50%; /* Base width of the image */
+    flex-grow: 0; /* Prevent the image from growing */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    max-width: 350px; /* Ensure the image is not bigger than its container */
+    aspect-ratio: 1 / 1; /* Maintain square aspect ratio */
+    object-fit: cover; 
     /* Other styling as needed */
 }
 
