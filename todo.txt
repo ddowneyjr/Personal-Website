@@ -1,4 +1,0 @@
-Current List of Things TODO:
-1. Get Better Fonts
-2. Make an About You Page
-3. Find correct colors for background and text

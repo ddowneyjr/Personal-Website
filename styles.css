@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lekton&family=Neucha&family=Roboto&display=swap");
+
+body {
+    background-color: #1e1e1e;
+    font-family: "Lekton", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fdfcdc;
+}
+
+.face-pic {
+    width: 259px;
+    height: 259px;
+    flex-shrink: 0;
+    border-radius: 259px;
+}
+
+.name {
+    color: #00ff00;
+}
+
+.resume {
+    display: inline-block;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10em;
+    border-color: #fdfcdc;
+    padding: 10px 25px;
+    position: relative;
+    color: #fdfcdc;
+    text-decoration: none;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+.resume:hover {
+    background-color: #fdfcdc; 
+    color: black; 
+}
+
+.icon-button {
+    display: inline-block;
+    width: 40px; 
+    height: 40px;
+    background: transparent; 
+    border-radius: 10em; 
+    padding: 5px; 
+    margin: 5px; 
+    margin-top: 10px;;
+    transition: background-color 0.6s ease, border-color 0.6s ease;
+    text-decoration: none; 
+}
+
+.icon-button img {
+    filter: invert(98%) sepia(5%) saturate(1860%) hue-rotate(330deg) brightness(109%) contrast(98%);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.icon-button:hover img {
+    filter: invert(1); 
+}
+
+.intro {
+    
+    gap: 10%;
+    margin: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#output {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+#output div {
+    margin-bottom: 10px; 
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+input {
+    background-color: transparent;
+    color: #00ff00;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        margin: 5%;
+    }
+}
+
+
