@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to clear the terminal
     function clearTerminal() {
-        outputDiv.innerHTML = '';
+        outputDiv.innerHTML = `<div>${prompt}Welcome! Type 'help' to get started.</div>`;
     }
 
     // Function to process commands using switch case
